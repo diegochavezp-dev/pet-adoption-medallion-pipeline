@@ -1,0 +1,26 @@
+# Datos (pesados, no versionar — ver README para dónde conseguirlos)
+data/
+*.csv
+*.zip
+
+# Delta Lake / Spark
+bronze/
+silver/
+gold/
+*/train_delta/
+*/test_delta/
+spark-warehouse/
+derby.log
+metastore_db/
+
+# Checkpoints de Jupyter
+.ipynb_checkpoints/
+
+# Entornos
+venv/
+__pycache__/
+*.pyc
+
+# Sistema
+.DS_Store
+Thumbs.db
